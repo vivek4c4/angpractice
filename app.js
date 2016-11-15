@@ -10,7 +10,8 @@
       var totallength=result.length;
       var lenEmpty=0;
       for (var i = 0; i < result.length; i++) {
-        if (result[i]!=null && result[i].length==1) {
+        console.log(result[i]);
+        if (result[i]!=null &&result[i]==" " &&result[i].length==1) {
           lenEmpty++;
 
         }
